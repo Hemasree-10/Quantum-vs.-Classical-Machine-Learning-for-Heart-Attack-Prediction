@@ -54,7 +54,7 @@ This project compares **quantum machine learning (QML)** and **classical machine
 - **Data Preprocessing**:  
   - Standardization, outlier removal, and train-test splitting.  
 - **Visualizations**:  
-  - Accuracy comparison, confusion matrices, and feature importance analysis.  
+  - Accuracy comparison and confusion matrices.  
 
 ---
 
