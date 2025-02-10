@@ -6,8 +6,6 @@
 - [Key Features](#-key-features)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Challenges with Quantum Models](#-challenges-with-quantum-models)
-- [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
 ---
@@ -19,15 +17,18 @@ This project compares **quantum machine learning (QML)** and **classical machine
 ### Models Implemented:
 - **Quantum Models**:  
   - Quantum Support Vector Machine (QSVM)  
-  - Variational Quantum Classifier (VQC) and SamplerQNN (attempted but faced challenges)  
+  - Variational Quantum Classifier (VQC)
 - **Classical Models**:  
   - Support Vector Machine (SVM)  
   - Random Forest Classifier  
 
 ### Key Findings:
-- QSVM achieved **60.71% accuracy**, underperforming classical models.  
-- Classical models (SVM: 85%, Random Forest: 80%) demonstrated superior performance.  
-- Challenges in implementing **VQC/SamplerQNN** highlighted the experimental nature of QML.
+
+- Classical models (SVM: 85%, Random Forest: 80%) demonstrated superior performance.
+- Classical Models Outperform Quantum Models: SVM and Random Forest achieved significantly higher accuracy compared to VQC and QSVC.
+- Quantum Models Show Potential: QSVC performed better than VQC, but both quantum models need further optimization to compete with 
+   classical models.
+- Best Performing Model: SVM achieved the highest accuracy (85.71%), making it the most effective model for this dataset. 
 
 ---
 
@@ -87,26 +88,9 @@ This project compares **quantum machine learning (QML)** and **classical machine
 
 - Preprocess the data.
 
-- Train and evaluate QSVM, SVM, and Random Forest models.
+- Train and evaluate VQC, QSVM, SVM, and Random Forest models.
 
 - Generate visualizations (accuracy plots, confusion matrices).
-  
------------
-
-## 🧩 Challenges with Quantum Models
-1. VQC/SamplerQNN Implementation:
-
-- Dimension mismatches between predicted and target labels.
-
-- Optimization failures with COBYLA and unstable training.
-
-- Limited quantum circuit expressiveness for the dataset.
-
-2. General QML Challenges:
-
-- Noise in quantum simulations.
-
-- Lack of quantum advantage for structured medical data.
   
 -----------
 
