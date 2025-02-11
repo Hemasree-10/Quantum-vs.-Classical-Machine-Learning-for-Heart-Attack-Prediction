@@ -1,9 +1,9 @@
-qiskit==0.44.0
-qiskit-aer==0.12.0
-qiskit-machine-learning==0.6.0
-scikit-learn==1.0.2
+qiskit
+qiskit-aer
+qiskit-machine-learning
+scikit-learn
 pandas
 matplotlib 
 seaborn
-numpy==1.23.5
-pylatexenc
+numpy
+
