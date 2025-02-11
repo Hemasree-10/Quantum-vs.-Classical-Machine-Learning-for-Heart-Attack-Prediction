@@ -12,7 +12,7 @@
 
 ## 🚀 Project Overview
 
-This project compares **quantum machine learning (QML)** and **classical machine learning** models for predicting heart attacks using a **Heart Attack Prediction Dataset**. The dataset initially contained **900 rows**, which was reduced to **300 rows** to work with quantum simulations. After outlier removal, **280 rows** were used for training and testing.
+This project compares the performance of Quantum Machine Learning (QML) models and Classical Machine Learning (CML) models for predicting heart attacks using a heart disease dataset. The goal is to evaluate whether quantum models can outperform classical models in this medical classification task.
 
 ### Models Implemented:
 - **Quantum Models**:  
@@ -28,7 +28,7 @@ This project compares **quantum machine learning (QML)** and **classical machine
 - Classical Models Outperform Quantum Models: SVM and Random Forest achieved significantly higher accuracy compared to VQC and QSVC.
 - Quantum Models Show Potential: QSVC performed better than VQC, but both quantum models need further optimization to compete with 
    classical models.
-- Best Performing Model: SVM achieved the highest accuracy (85.71%), making it the most effective model for this dataset. 
+- Best Performing Model: *SVM* achieved the highest accuracy (85.71%), making it the most effective model for this dataset. 
 
 ---
 
@@ -39,7 +39,7 @@ This project compares **quantum machine learning (QML)** and **classical machine
 - **Preprocessing**:  
   - Reduced to **300 rows** to work with quantum simulations.  
   - Removed outliers, resulting in **280 rows** for final analysis.  
-  - Features were standardized, and labels were binarized for classification.  
+  - Features were standardized for classification.  
 
 ### Dataset Source:
 - The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data).  
@@ -47,9 +47,9 @@ This project compares **quantum machine learning (QML)** and **classical machine
 ---
 
 ## 🔑 Key Features
-- **Quantum Machine Learning**:  
-  - Implementation of QSVM using Qiskit's `QuantumKernel`.  
-  - Attempted implementation of VQC and SamplerQNN.  
+- **Quantum Machine Learning**:
+  - Implementation of VQC using Qiskit
+  - Implementation of QSVM using Qiskit's `QuantumKernel`.    
 - **Classical Machine Learning**:  
   - SVM with linear kernel and Random Forest for benchmarking.  
 - **Data Preprocessing**:  
